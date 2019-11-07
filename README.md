@@ -1,2 +1,2 @@
 # FCC-Projects
-Containing FreeCodeCamp's 
+FreeCodeCamp's certification project
