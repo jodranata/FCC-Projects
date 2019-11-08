@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Are You a Sports Lover?</title>
+	<link rel="stylesheet" href="css/style.css" class="css">
+</head>
+<body>
+	<header id ="main-title">
+		<div id="head-title">
+		<h1 id="title"> Survey on Sports & Physical Activity </h1>
+		</div>
+	</header>
+	<main>
+		<form action="https://codepen.io/Jodranata" method="get" id="survey-form">
+		<div id="opening">
+			<p id="description" class="desc">
+				Welcome to Sport.House! Home for every Sporting Goods!</p>  
+
+				<p class="desc">First, we want to thank you for taking part of this survey of Sports & Physical Activity. Sport.House is dedicated to provide your every need for sporting goods and apparel. But before we can do that, It'll helps us to know you a little bit better.</p>
+				
+				<p class="desc">If there's anything you'd need to know more, Please contact us at:</p>
+
+				<p id=customer>customerservice@sporthouse.sp</p>
+		</div>
+
+	<section class= "survey-question">
+
+		<div class= "survey-box" id="general-info">
+			<div class= "question-box">
+					<div class="part-title">
+						<h2> General Information </h2>
+					</div>
+
+				<div class="info-box">
+					<div class="option-box">
+						<div class="label-text">
+							<label for="name" id="name-label">Name: </label>
+						</div>
+						<div class="option">
+							<input autofocus="" type="text" name="name" class="field-style" placeholder=" Your Name" required id="name">
+						</div>
+						</div>
+
+					<div class="option-box">
+						<div class="label-text">
+							<label for="address">Address: </label>
+						</div>
+						<div class="option">
+							<input type="text" name="address" class="field-style" placeholder=" Address" required id="address">
+						</div>
+					</div>
+
+					<div id="birthday-box">
+						<div class="label-text">
+							<label for="birthdate" id="DOB">Date of Birth:
+							</label>
+						</div>
+				
+						<div class="option" id="day">
+							<input type="number" name="birthdate" class="field-style" placeholder=" Day" min="1" max="31" required id="number-label">
+						</div>
+
+						<div class="option" id="month">
+							<select id="dropdown" name="birthdate" class="field-style" required>
+								<option disabled selected value ="">Month(Select an Option)</option>
+								<option value = "january">January</option>
+								<option value = "february">February</option>
+								<option value = "march">March</option>
+								<option value = "april">April</option>
+								<option value = "may">May</option>
+								<option value = "june">June</option>
+								<option value = "july">July</option>
+								<option value = "august">August</option>
+								<option value = "september">September</option>
+								<option value = "october">October</option>
+								<option value = "november">November</option>
+								<option value = "december">December</option>
+							</select>
+						</div>
+
+						<div class="option" id="year">
+							<input type="number" name="birthdate" class="field-style" placeholder=" Year" min="1890" max="2020" required>
+						</div>
+					</div>
+
+						<div class="option-box">
+						<div class="label-text">
+							<label for="email" id="email-label">Email: </label>
+						</div>
+						<div class="option">
+							<input type="email" name="email" class="field-style" placeholder=" Your@email.com" required id="email">
+						</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+
+			<div class="survey-box">
+				<div class= "question-box">
+					<div class="part-title">
+						<h2> Gender </h2>
+					</div>
+						
+							<div class="opt-container">
+								<label class="radio-label">
+								<input type="radio" required name="gender" class="default-button"  value="m">
+								<span class="new-button"></span>
+									<div class="button-label">
+									 	Male 
+									</div>
+								</label>
+							</div>
+						
+						
+							<div class="opt-container">
+								<label class="radio-label">
+								<input type="radio" name="gender" class="default-button"  value="f">
+								<span class="new-button"></span>
+									<div class="button-label">
+									 	Female 
+									</div>
+								</label>
+							</div>
+						
+						
+							<div class="opt-container">
+								<label class="radio-label">
+								<input type="radio" name="gender" class="default-button"  value="none">
+								<span class="new-button"></span>
+									<div class="button-label">
+									 	Prefer not to say. 
+									</div>
+								</label>
+							</div>
+					</div>
+				</div>
+
+
+			<div class="survey-box">
+				<div class= "question-box">
+					<div class="part-title">
+						<h2> What is your current occupation? </h2>
+					</div>
+						
+							<div class="opt-container">
+								<label class="radio-label">
+								<input type="radio" name="occupation" required class="default-button"  value="student">
+								<span class="new-button"></span>
+									<div class="button-label">
+									 	Student
+									</div>
+								</label>
+							</div>
+						
+						
+							<div class="opt-container">
+								<label class="radio-label">
+								<input type="radio" name="occupation" class="default-button"  value="employed">
+								<span class="new-button"></span>
+									<div class="button-label">
+									 	Employed
+									</div>
+								</label>
+							</div>
+						
+						
+							<div class="opt-container">
+								<label class="radio-label">
+								<input type="radio" name="occupation" class="default-button"  value="unemployed">
+								<span class="new-button"></span>
+									<div class="button-label">
+									 	Unemployed 
+									</div>
+								</label>
+							</div>
+							<div class="opt-container">
+								<label class="radio-label">
+								<input type="radio" name="occupation" class="default-button"  value="voluntary">
+								<span class="new-button"></span>
+									<div class="button-label">
+									 	Voluntary work 
+									</div>
+								</label>
+							</div>
+							<div class="opt-container">
+								<label class="radio-label">
+								<input type="radio" name="occupation" class="default-button"  value="entrepreuner">
+								<span class="new-button"></span>
+									<div class="button-label">
+									 	Entrepreuner 
+									</div>
+								</label>
+							</div>
+							<div class="opt-container">
+								<label class="radio-label">
+								<input type="radio" name="occupation" class="default-button"  value="freelance">
+								<span class="new-button"></span>
+									<div class="button-label">
+									 	Freelance/Part-time work 
+									</div>
+								</label>
+							</div>
+					</div>
+				</div>
+
+				<div class="survey-box">
+				<div class= "question-box">
+					<div class="part-title">
+						<h2> What kind of sports do you play?</h2>
+					</div>
+						
+							<div class="opt-container">
+								<label class="check-label">
+								<input type="checkbox" name="sports" class="default-button"  value="basketball">
+								<span class="new-check-button"></span>
+									<div class="button-label">
+									 	Basketball
+									</div>
+								</label>
+							</div>
+
+							<div class="opt-container">
+								<label class="check-label">
+								<input type="checkbox" name="sports" class="default-button"  value="football">
+								<span class="new-check-button"></span>
+									<div class="button-label">
+									 	Football
+									</div>
+								</label>
+							</div>
+
+							<div class="opt-container">
+								<label class="check-label">
+								<input type="checkbox" name="sports" class="default-button"  value="volleyball">
+								<span class="new-check-button"></span>
+									<div class="button-label">
+									 	Volleyball
+									</div>
+								</label>
+							</div>
+
+							<div class="opt-container">
+								<label class="check-label">
+								<input type="checkbox" name="sports" class="default-button"  value="badminton">
+								<span class="new-check-button"></span>
+									<div class="button-label">
+									 	Badminton
+									</div>
+								</label>
+							</div>
+
+							<div class="opt-container">
+								<label class="check-label">
+								<input type="checkbox" name="sports" class="default-button"  value="tennis">
+								<span class="new-check-button"></span>
+									<div class="button-label">
+									 	Tennis
+									</div>
+								</label>
+							</div>
+
+							<div class="opt-container">
+								<label class="check-label">
+								<input type="checkbox" name="sports" class="default-button"  value="baseball">
+								<span class="new-check-button"></span>
+									<div class="button-label">
+									 	Baseball
+									</div>
+								</label>
+							</div>
+
+							<div class="opt-container">
+								<label class="check-label">
+								<input type="checkbox" name="sports" class="default-button"  value="swimming">
+								<span class="new-check-button"></span>
+									<div class="button-label">
+									 	Swimming
+									</div>
+								</label>
+							</div>
+
+							<div class="opt-container">
+								<label class="check-label">
+								<input type="checkbox" name="sports" class="default-button"  value="track">
+								<span class="new-check-button"></span>
+									<div class="button-label">
+									 	Track & Field
+									</div>
+								</label>
+							</div>
+
+							<div class="opt-container">
+								<label class="check-label">
+								<input type="checkbox" name="sports" class="default-button"  value="extreme">
+								<span class="new-check-button"></span>
+									<div class="button-label">
+									 	Extreme Sports (rock climbing, mountain biking, surfing, rafting, sky diving, base jumping, etc.)
+									</div>
+								</label>
+							</div>
+				</div>
+			</div>
+
+			<div class="survey-box">
+				<div class= "question-box">
+					<div class="part-title">
+						<h2> What kind of service would you like Sport.House to provide?</h2>
+					</div>
+						
+							<div class="opt-container">
+								<label class="radio-label">
+								<input type="radio" required name="service" class="default-button"  value="freedelivery">
+								<span class="new-button"></span>
+									<div class="button-label">
+									 	Free delivery
+									</div>
+								</label>
+							</div>
+							<div class="opt-container">
+								<label class="radio-label">
+								<input type="radio" required name="service" class="default-button"  value="overnight">
+								<span class="new-button"></span>
+									<div class="button-label">
+									 	Overnight (24-hr) delivery service
+									</div>
+								</label>
+							</div>
+							<div class="opt-container">
+								<label class="radio-label">
+								<input type="radio" required name="service" class="default-button"  value="backorder">
+								<span class="new-button"></span>
+									<div class="button-label">
+									 	Less than 7 days backorder item
+									</div>
+								</label>
+							</div>
+							<div class="opt-container">
+								<label class="radio-label">
+								<input type="radio" required name="service" class="default-button"  value="discount">
+								<span class="new-button"></span>
+									<div class="button-label">
+									 	up to 70% discount for members
+									</div>
+								</label>
+							</div>
+							<div class="opt-container">
+								<label class="radio-label">
+								<input type="radio" required name="service" class="default-button"  value="event">
+								<span class="new-button"></span>
+									<div class="button-label">
+									 	Organizing several sport events
+									</div>
+								</label>
+							</div>
+							<div class="opt-container">
+								<label class="radio-label">
+								<input type="radio" required name="service" class="default-button"  value="beginner">
+								<span class="new-button"></span>
+									<div class="button-label">
+									 	Classes for beginner
+									</div>
+								</label>
+							</div>
+							<div class="opt-container">
+								<label class="radio-label">
+								<input type="radio" required name="service" class="default-button"  value="court">
+								<span class="new-button"></span>
+									<div class="button-label">
+									 	Indoor courts for several sports
+									</div>
+								</label>
+							</div>
+				</div>
+			</div>
+
+			
+		<div class="question-box">
+			<textarea id="text-area-comment" placeholder="Write here for any comment or suggestion.."></textarea>
+		</div>
+		
+		<div class="submit-button">
+			<button id="submit" type="submit">SUBMIT</button>
+		</div>
+</section>
+	</form>
+	</main>
+
+<footer id="footer">
+<hr>	
+			<div id="footer-text">designed by Jodi Pranata
+			</div>
+</footer>
+
+
+
+
+
+</body>
+</html>
